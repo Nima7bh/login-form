@@ -1,7 +1,7 @@
 function validateForm(fields) {
   let valid = true;
   const errorContainer = document.getElementById("errorContainer");
-  errorContainer.innerHTML = ""; 
+  errorContainer.innerHTML = "";
 
   fields.forEach((field) => {
     if (!field.value.trim()) {
@@ -55,8 +55,8 @@ logIn.addEventListener("click", loginInFunc);
 signIn.addEventListener("click", signInFunc);
 
 function loginInFunc() {
-  eye.src = "/a2.png";
+  eye.src = "./a2.png";
 }
 function signInFunc() {
-  eye.src = "/a1.png";
+  eye.src = "./a1.png";
 }
